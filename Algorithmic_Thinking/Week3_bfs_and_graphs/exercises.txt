@@ -1,0 +1,24 @@
+
+Question 2 (1 pt)
+Consider removing a significant fraction of the nodes in each graph using random_order. We will say that a graph
+ is resilient under this type of attack if the size of its largest connected component is roughly (within ~25%) equal
+  to the number of nodes remaining, after the removal of each node during the attack.
+
+Examine the shape of the three curves from your plot in Question 1. Which of the three graphs
+ are resilient under random attacks as the first 20% of their nodes are removed? Note that there is
+  no need to compare the three curves against each other in your answer to this question.
+
+ANSWER: All three graphs are resilient under the given random attack as the first 20% of the nodes
+ (approximately 250 nodes)were removed  - but it was a 'close call' for the real computer network.
+ All of this is evident from my plot, where I have also plottet the 'resilience limit' curve.
+
+Questin 3:
+1) Whatat are tight upper bounds on the worst-case running times of targeted_order and fast_targeted_order? Use big-O
+notation to express your answers (which should be very simple).
+2) Does the plot follow the formatting guidelines for plots? Does the plot include a legend? Does the title include the implementation of Python used to compute the timings?
+3)  Are the shapes of the timing curves in the plot correct?
+
+Targeted_order is O(n^2). Fast_targeted_order is O(n)
+
+Question 5:
+Only the ER-graph is resilient under targeted attack as the first 20% of the nodes are removed

@@ -1,0 +1,12 @@
+
+question 5:
+
+mean = 51,7
+deviation = 7,11
+real_score = 875
+z_score = 116,8
+
+
+Based on your answers to Questions 4 and 5, is the score resulting from the local alignment of the HumanEyelessProtein
+and the FruitflyEyelessProtein due to chance? NOO!!!!! IT IS EXXXTREMELY UNLIKELY. As a concrete question, which is more likely: the similarity between the 
+human eyeless protein and the fruitfly eyeless protein being due to chance or winning the jackpot in an extremely large lottery? Provide a short explanation for your answers
